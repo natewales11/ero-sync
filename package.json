@@ -1,0 +1,26 @@
+{
+  "name": "ero-sync",
+  "version": "1.0.0",
+  "description": "Synchronizes results from an e621 query to a local folder on your computer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natewales11/ero-sync.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natewales11/ero-sync/issues"
+  },
+  "homepage": "https://github.com/natewales11/ero-sync#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "jsdom": "^16.2.1",
+    "promise": "^8.1.0",
+    "terminate": "^2.1.2"
+  }
+}
